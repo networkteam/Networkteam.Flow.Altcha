@@ -3,15 +3,15 @@
     <file original="" product-name="Networkteam.Flow.Altcha" source-language="de" datatype="plaintext">
         <body>
             <trans-unit id="widget.ariaLinkLabel" xml:space="preserve">
-				<source>Besuche Altcha.org</source>
-			</trans-unit>
+                <source>Besuche Altcha.org</source>
+            </trans-unit>
             <trans-unit id="widget.error" xml:space="preserve">
-				<source>Verifizierung fehlgeschlagen. Versuche es später erneut.</source>
-			</trans-unit>
+                <source>Verifizierung fehlgeschlagen. Versuche es später erneut.</source>
+            </trans-unit>
             <trans-unit id="widget.expired" xml:space="preserve">
                 <source>Verifizierung abgelaufen. Versuchen es erneut.</source>
             </trans-unit>
-            <trans-unit id="widget.footer" xml:space="preserve">
+              <trans-unit id="widget.footer" xml:space="preserve">
                 <source><![CDATA[Geschützt durch <a href="https://altcha.org/" target="_blank" aria-label="Besuche Altcha.org">ALTCHA</a>]]></source>
             </trans-unit>
             <trans-unit id="widget.label" xml:space="preserve">
