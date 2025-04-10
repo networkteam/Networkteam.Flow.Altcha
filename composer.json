@@ -2,6 +2,9 @@
     "description": "Integration of ALTCHA Next-Gen Captcha in Neos Flow applications",
     "type": "neos-package",
     "name": "networkteam/flow-altcha",
+    "license": [
+        "MIT"
+    ],
     "require": {
         "php": ">=8.2",
         "neos/flow": "~8.3",
