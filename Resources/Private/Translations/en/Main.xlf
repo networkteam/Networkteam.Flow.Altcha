@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Networkteam.Flow.Altcha" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="widget.ariaLinkLabel" xml:space="preserve">
+                <source>Visit Altcha.org</source>
+            </trans-unit>
+            <trans-unit id="widget.error" xml:space="preserve">
+                <source>Verification failed. Try again later.</source>
+            </trans-unit>
+            <trans-unit id="widget.expired" xml:space="preserve">
+                <source>Verification expired. Try again.</source>
+            </trans-unit>
+            <trans-unit id="widget.footer" xml:space="preserve">
+                <source><![CDATA[Protected by <a href="https://altcha.org/" target="_blank" aria-label="Visit Altcha.org">ALTCHA</a>]]></source>
+            </trans-unit>
+            <trans-unit id="widget.label" xml:space="preserve">
+                <source>I'm not a robot</source>
+            </trans-unit>
+            <trans-unit id="widget.verified" xml:space="preserve">
+                <source>Verified</source>
+            </trans-unit>
+            <trans-unit id="widget.verifying" xml:space="preserve">
+                <source>Verifying...</source>
+            </trans-unit>
+            <trans-unit id="widget.waitAlert" xml:space="preserve">
+                <source>Verifying... please wait.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

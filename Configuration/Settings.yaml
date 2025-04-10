@@ -1,0 +1,16 @@
+Networkteam:
+  Flow:
+    Altcha:
+      challenge:
+        # Hashing algorithm to use (`SHA-1`, `SHA-256`, `SHA-512`, default:`SHA-256`)
+        algorithm: SHA-256
+        # Minimum number for the random number generator (default: 5,0000)
+        minNumber: 5000
+        # Maximum number for the random number generator (default: 1,000,000)
+        maxNumber: 1000000
+        # Expiration time for the challenge in seconds
+        expires: 1200
+        # Length of the random salt (default: 12 bytes).
+        saltLength: 12
+        # HMAC key for challenge calculation and solution verification
+        hmac:

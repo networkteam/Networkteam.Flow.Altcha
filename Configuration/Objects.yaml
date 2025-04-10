@@ -1,0 +1,14 @@
+Networkteam\Flow\Altcha\Service\AltchaService:
+  arguments:
+    1:
+      setting: Networkteam.Flow.Altcha.challenge.hmac
+    2:
+      setting: Networkteam.Flow.Altcha.challenge.algorithm
+    3:
+      setting: Networkteam.Flow.Altcha.challenge.minNumber
+    4:
+      setting: Networkteam.Flow.Altcha.challenge.maxNumber
+    5:
+      setting: Networkteam.Flow.Altcha.challenge.expires
+    6:
+      setting: Networkteam.Flow.Altcha.challenge.saltLength
