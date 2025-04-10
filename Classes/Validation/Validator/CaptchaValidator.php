@@ -2,6 +2,7 @@
 
 namespace Networkteam\Flow\Altcha\Validation\Validator;
 
+use Neos\Flow\Validation\Exception\InvalidValidationOptionsException;
 use Neos\Flow\Validation\Validator\AbstractValidator;
 use Networkteam\Flow\Altcha\Service\AltchaService;
 use Neos\Flow\Annotations as Flow;
@@ -25,6 +26,29 @@ class CaptchaValidator extends AbstractValidator
 
     #[Flow\Inject]
     protected AltchaService $altchaService;
+
+    public function __construct(array $options = [])
+    {
+        parent::__construct($options);
+
+        // configure altcha service
+        if (!empty($this->options['algorithm'])) {
+            $this->altchaService->setAlgorithm($this->options['algorithm']);
+        }
+        if (!empty($this->options['minNumber'])) {
+            $this->altchaService->setMinNumber($this->options['minNumber']);
+        }
+        if (!empty($this->options['maxNumber'])) {
+            $this->altchaService->setMaxNumber($this->options['maxNumber']);
+        }
+        if (!empty($this->options['expires'])) {
+            $this->altchaService->setExpires($this->options['expires']);
+        }
+        if (!empty($this->options['saltLength'])) {
+            $this->altchaService->setSaltLength($this->options['saltLength']);
+        }
+    }
+
 
     protected function isValid($value)
     {
